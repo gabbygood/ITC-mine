@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITC PART #3</title>
+    <link rel="shortcut icon" href="./images/mastercard logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="./images/shux.png" alt="lourdes logo" class="image-logo-lc">
+        <h1 class="lourdes-college">Goylan LLC</h1>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Favorite Links</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#admission" class="navbar__links" id="admission-page" onclick="scrollPage()">Location</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">My Name Is Gabrielle Goylan</h1>
+        <img src="" alt="">
+        <p class="hero__description">My best picture</p>
+        <button class="main__btn"><a href="#">I'm an I.T student ❤️</a></button>
+      </div>
+    </div>
+
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <img src="./images/best picture.jpg" alt="image-1" class="main__img--card">
+        </div>
+        <div class="main__content">
+          <h1>Hobbies</h1>
+          <p style="font-size: 1rem;">My hobbies are playing guitar, singing, <strong style="color: red;text-transform:uppercase">teaching math</strong> </p>
+          <h1>My Dream</h1>
+          <p style="font-size: 1rem;">Before i want to be a engineer, but my mind was change and started to be a I.T professional and my field oof organization is to be software engineer/ Game developer</p>
+          <h1>My favorite Quote Ever</h1>
+          <p style="font-size: 1rem;">The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.</p>
+          <button class="core-values main__btn"><a href="#">Core Values</a></button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="services" id="services">
+      <h1>Favorite Links</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2 style="color: black;">My Pinkgirl Site</h2>
+          <p style="font-size: 1rem;"><a class="link-favorite-site" href="https://goylan.netlify.app/" style="font-size: 2.5rem;">Click this link</a></p>
+          <div class="services__btn"><button>fav#1</button></div>
+        </div>
+        <div class="services__card">
+          <h2 style="color: black;">My replica of Lourdes site</h2>
+          <p><a class="link-favorite-site" href="https://emptech.vercel.app" style="font-size: 2.5rem;">CLICK THIS LINK</a></p>
+          <div class="services__btn"><button>fav#2</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Youtube</h2>
+          <p style="font-size: 1rem;"><a style="font-size: 2.5rem;" href="https://youtube.com" class="link-favorite-site">CLICK THIS LINK</a></p>
+          <div class="services__btn"><button>favc#3</button></div>
+        </div>
+        <div class="services__card">
+          <h2>manga anime</h2>
+          <p><a href="https://asurascanss.com/" class="link-favorite-site" style="font-size: 2.5rem;">CLICK THIS LINK</a></p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="admission" id="admission">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126282.56135245659!2d124.6461952!3d8.4672512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1669777996199!5m2!1sen!2sph"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="map-of-me"></iframe>
+    </div>
+
+    
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>My Video</h1>
+          <h2>Click the video below</h2>
+          <p>Gwapo si Gabrielle</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <iframe width="1175" height="661" src="https://www.youtube.com/embed/2dH5GSdvcdg"
+              title="M Y M P GREATEST HITS FULL ALBUM - BEST SONGS OF M Y M P PLAYLIST 2021" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen class="no-overlapping"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Me</h2>
+            <a href="/sign__up">Kind</a> <a href="/">Good</a>
+            <a href="/">inspirer</a> <a href="/">Generous</a>
+            <a href="/">Handsome</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Me</h2>
+            <a href="/">09454574454</a> <a href="/">09154997763</a>
+            <a href="/">0953488174</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="https://youtu.be/NJmrSXoZwmE">Taylor Swift Non-stop music</a> <a href="https://www.youtube.com/watch?v=r8ApKooFtEM">Throwback music</a>
+            <a href="https://www.youtube.com/watch?v=h9heRkipbaQ">Best Duet Song</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Goylan LLC</a>
+          </div>
+          <p class="website__rights">© GOYLAN LLC. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link fb" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link insta"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link yt"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link linked"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
